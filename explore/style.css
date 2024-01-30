@@ -254,7 +254,8 @@ body {
 
 section {
   margin: 0;
-  min-height: 100%;
+  height: 100%;
+  width: 100%;
   display: flex;
   color: #000000;
 }
@@ -262,7 +263,7 @@ section {
 #dish {
   height: 100%;
   background-image: linear-gradient(to left, #43766c, #43766c, #00000000), url("img/Algerian_food___Rechta_.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   justify-content: end;
 }
