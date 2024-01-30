@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    width: 80px;
+    height: auto;
+    background-color: #43766c;
+    display: flex;
+    flex-direction: column;
+    /* Stack children vertically */
+    align-items: center;
+    /* Center children horizontally */
+    justify-content: flex-start;
+    /* Align children to the top */
+}
+
+.sidebar .logo {
+    margin-top: 0;
+    /* Remove top margin */
+}
+
+.sidebar .logo img {
+    width: 190px;
+    /* Set the width of the logo as needed */
+    height: auto;
+    /* Maintain the aspect ratio while adjusting the width */
+}
+
+.ic1 i {
+    font-size: 28px;
+    color: #F7F9E5;
+}
+
+.line {
+    border: 2px solid #F7F9E5;
+    width: 30px;
+    margin-top: 40px;
+}
+
+.ic2 i {
+    font-size: 28px;
+    color: #F7F9E5;
+    margin-top: 60px;
+}
+
+.line2 {
+    border: 2px solid #F7F9E5;
+    width: 30px;
+    margin-top: 40px;
+}
+
+.ic3 i {
+    font-size: 28px;
+    color: #F7F9E5;
+    margin-top: 60px;
+}
+
+.bot {
+    margin-top: 870px;
+}
+
+.content {
+    width: 100%;
+    background-image: url("background-exploiter-et-investir.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    gap: 400px;
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 180px;
+    margin-left: 100px;
+    gap: 30px;
+
+}
+
+.profile i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #43766c;
+    font-size: 120px;
+    background-color: #F7F9E5;
+    width: 300px;
+    height: 300px;
+    border-radius: 999px;
+
+}
+
+.information h1 {
+    color: #43766c;
+    font-size: 44px;
+
+
+}
+
+.p {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+
+}
+
+.p h3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #43766c;
+}
+
+.pcicon i {
+    font-size: 30px;
+    color: #43766c;
+
+}
+
+.link {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.h {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 40px;
+}
+
+.saved {
+    background-color: #F7F9E5;
+    width: 500px;
+    height: 500px;
+    border-radius: 90px;
+    margin-top: 50px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.TT {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    gap: 170px;
+}
+
+.TT h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #43766c;
+}
+
+.T2 {
+    margin-right: 29px;
+
+
+
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 380px;
+    height: 380px;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(67, 118, 108, 0.8), transparent);
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    width: auto;
+    border-radius: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay {
+    opacity: 2.9;
+}
+
+.dish-name {
+    font-size: 22px;
+}
+
+.njk h1 {
+    position: absolute;
+    top: 500px;
+    margin-left: 85px;
+    color: #43766c;
+    font-size: 44px;
+    font-weight: 500;
+    text-decoration: underline #43766c;
+
+}
+
+.section {
+    margin-top: 80px;
+}
